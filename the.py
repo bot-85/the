@@ -923,8 +923,8 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end=' ');sys.stdout.flush()
-        except:
+               print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+     except:
             self.api_opsi(fl)
     def mbasic(self,fl):
         try:
